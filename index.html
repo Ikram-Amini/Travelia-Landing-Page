@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="assests/preloader.svg" />
+    <script defer src="js/script.js"></script>
+    <title>Travelia</title>
+  </head>
+  <body>
+    <header>
+      <nav class="header__nav">
+        <div class="header__logo fade-logo">
+          <a href="">
+            <img src="assests/logo.svg" alt="Logo" />
+          </a>
+        </div>
+
+        <a class="header__menu-mobile fade-logo" href="#!">
+          <img src="assests/bars.svg" alt="Menu" />
+        </a>
+
+        <ul class="header__menu">
+          <li class="active fade-down-nav"><a href="#home">Home</a></li>
+          <li class="fade-down-nav"><a href="#about">About</a></li>
+          <li class="fade-down-nav"><a href="#services">Services</a></li>
+          <li class="fade-down-nav"><a href="#pricing">Pricing</a></li>
+          <li class="fade-down-nav"><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="header__buttons fade-logo">
+          <button class="header__button-login">Login</button>
+          <button class="header__button-signup">Sign Up</button>
+        </div>
+
+        <!--? Sidebar  -->
+        <div id="!" class="sidebar-overlay"></div>
+        <aside class="header__sidebar">
+          <div class="header__sidebar-logo">
+            <a href="#">
+              <img src="assests/logo.svg" alt="close" />
+            </a>
+            <div class="header__sidebar-close">
+              <a href="#">
+                <img src="assests/close (1).png" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <ul class="header__sidebar-menu">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <div class="header__sidebar-buttons">
+            <button class="header__button-login">Login</button>
+            <button class="header__button-signup">Sign Up</button>
+          </div>
+        </aside>
+        <!--? End of Sidebar -->
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__content fade-left">
+          <div class="hero__mini-title">
+            <p>Explore the World</p>
+            <img src="assests/title-icon.svg" alt="" />
+          </div>
+
+          <div class="hero__main-title">
+            <h1>It's a Big World Out There, Go Explore</h1>
+          </div>
+
+          <div class="hero__description">
+            <p>
+              We always make our customer happy by providing as many choices as
+              possible
+            </p>
+          </div>
+          <div class="hero__buttons">
+            <a href="#" class="hero__button-plan">
+              <p>Plan a Trip</p>
+              <img src="assests/greater-than.svg" alt="Forward Icon" />
+            </a>
+            <button class="hero__button-story">
+              <img
+                src="assests/hero-button-img.jpg"
+                alt="A Man with a backpack"
+              />
+              <span class="hero__button-play">
+                <img src="assests/play.svg" alt="Play Icon" />
+              </span>
+              <h3>Watch our Story</h3>
+            </button>
+          </div>
+        </div>
+
+        <div class="hero__img fade-left">
+          <img src="assests/hero-banner.png" alt="" />
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="about__content fade-left">
+          <p><span> WHAT WE SERVE </span></p>
+          <h2>Top Values For You</h2>
+          <p>Try a variety of benefits when using our services.</p>
+        </div>
+        <div class="about__card fade-left">
+          <img src="assests/service-icon-1.svg" alt="Globe Icon" />
+          <h3>Lot Of Choices</h3>
+          <p>Total 460+ destinations that we worked with.</p>
+        </div>
+        <div class="about__card fade-left">
+          <img src="assests/service-icon-2.svg" alt="user Icon" />
+          <h3>Best Tour Guide</h3>
+          <p>Our tour guide with 15+ years of experience.</p>
+        </div>
+        <div class="about__card fade-left">
+          <img src="assests/service-icon-3.svg" alt="service Icon" />
+          <h3>Easy Booking</h3>
+          <p>With an easy and fast ticket purchase process.</p>
+        </div>
+      </section>
+
+      <section class="destinations">
+        <div class="destinations__title">
+          <p class="fade-down">Top destination</p>
+          <h2 class="fade-in">Explore Top Destination</h2>
+        </div>
+
+        <div class="destinations__grid">
+          <div class="destinations__card">
+            <div class="destinations__image flip-right">
+              <p class="destination__card-price">$340</p>
+            </div>
+            <div class="destinations__description">
+              <a href="#rome">
+                <h3>Enjoy the Beauty of the del Pincio</h3>
+              </a>
+              <p>Rome, Italy</p>
+              <div class="destinations__review">
+                <span class="destinations__review-star">
+                  <img src="assests/star.svg" alt="a star icon" />
+                  <p>4.7</p>
+                </span>
+                <p>(11.1k Review)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="destinations__card">
+            <div class="destinations__image flip-right">
+              <p class="destination__card-price">$340</p>
+            </div>
+            <div class="destinations__description">
+              <a href="#rome">
+                <h3>Enjoy the Beauty of the Pakistan Monument</h3>
+              </a>
+              <p>Islamabad, Pakistan</p>
+              <div class="destinations__review">
+                <span class="destinations__review-star">
+                  <img src="assests/star.svg" alt="a star icon" />
+                  <p>4.6</p>
+                </span>
+                <p>(16.9k Review)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="destinations__card">
+            <div class="destinations__image flip-right">
+              <p class="destination__card-price">$340</p>
+            </div>
+            <div class="destinations__description">
+              <a href="#rome">
+                <h3>Enjoy the Beauty of the Burj Khalifa</h3>
+              </a>
+              <p>Skyscraper in Dubai</p>
+              <div class="destinations__review">
+                <span class="destinations__review-star">
+                  <img src="assests/star.svg" alt="a star icon" />
+                  <p>4.7</p>
+                </span>
+                <p>(120k Review)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="destinations__card">
+            <div class="destinations__image flip-right">
+              <p class="destination__card-price">$340</p>
+            </div>
+            <div class="destinations__description">
+              <a href="#rome">
+                <h3>Enjoy the Beauty of the Milaidhoo</h3>
+              </a>
+              <p>Island in the Maldives</p>
+              <div class="destinations__review">
+                <span class="destinations__review-star">
+                  <img src="assests/star.svg" alt="a star icon" />
+                  <p>4.7</p>
+                </span>
+                <p>(70 Review)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="destinations__card">
+            <div class="destinations__image flip-right">
+              <p class="destination__card-price">$340</p>
+            </div>
+            <div class="destinations__description">
+              <a href="#rome">
+                <h3>Enjoy the Beauty of the Ko Tao</h3>
+              </a>
+              <p>Island in the Gulf of Thailand</p>
+              <div class="destinations__review">
+                <span class="destinations__review-star">
+                  <img src="assests/star.svg" alt="a star icon" />
+                  <p>4.5</p>
+                </span>
+                <p>(985 Review)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="destinations__card">
+            <div class="destinations__image flip-right">
+              <p class="destination__card-price">$340</p>
+            </div>
+            <div class="destinations__description">
+              <a href="#rome">
+                <h3>Enjoy the Beauty of the Grand Mecidiye Mosqu</h3>
+              </a>
+              <p>Mosque in Istanbul, Türkiye</p>
+              <div class="destinations__review">
+                <span class="destinations__review-star">
+                  <img src="assests/star.svg" alt="a star icon" />
+                  <p>4.7</p>
+                </span>
+                <p>(29.6k Review)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="destinations__button flip-up">
+          <button>View All Destination</button>
+        </div>
+      </section>
+
+      <section class="experience">
+        <div class="experience__banner fade-left">
+          <img src="assests/experience-banner.png" alt="A Girl" />
+          <img src="assests/exp-shape.svg" alt="24/7 Support" />
+        </div>
+
+        <div class="experience__content fade-left">
+          <p>Our Experience</p>
+          <h2>With Our Experience We Will Serve You</h2>
+          <p>
+            Since we first opened we have always prioritized the convenience of
+            our users by providing low prices and with a easy process.
+          </p>
+
+          <div class="experience__details">
+            <p><span>20</span> Years experience</p>
+            <p><span>460+</span> Destination Collaboration</p>
+            <p><span>50K+</span> Happy Customer</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <div class="gallery__title fade-down">
+          <p>Photo Gallery</p>
+          <h2>Photo's From Travelers</h2>
+        </div>
+
+        <div class="gallery__grid">
+          <div class="gallery__card"></div>
+          <div class="gallery__card"></div>
+          <div class="gallery__card"></div>
+          <div class="gallery__card"></div>
+          <div class="gallery__card"></div>
+          <div class="gallery__card"></div>
+        </div>
+      </section>
+
+      <section class="offer">
+        <div class="offer__title">
+          <h2>
+            Prepare Yourself & Let's Explore The Beauty Of The World
+            <img src="assests/title-icon.svg" alt="Globe Icon" />
+          </h2>
+          <p>We have many special offers especially for you.</p>
+        </div>
+        <div class="offer__button flip-up">
+          <a href="#!">Get Started</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer__grid">
+        <div class="footer__logo">
+          <img src="assests/logo.svg" alt="Travelia Logo" />
+          <p>
+            We always make our customer happy by providing as many choices as
+            possible
+          </p>
+          <div class="footer__logo-icons">
+            <a href="#!">
+              <img src="assests/instagram.svg" alt="Instagram" />
+            </a>
+            <a href="#!">
+              <img src="assests/facebook.svg" alt="Facebook" />
+            </a>
+            <a href="#!">
+              <img src="assests/twitter.svg" alt="Twitter" />
+            </a>
+          </div>
+        </div>
+        <div class="footer__content">
+          <h3>About</h3>
+          <ul>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#menu">Menu</a></li>
+          </ul>
+        </div>
+        <div class="footer__content">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#company">Why Company</a></li>
+            <li><a href="#partners">Partners With Us</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#blog">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer__content">
+          <h3>Support</h3>
+          <ul>
+            <li><a href="#account">Account</a></li>
+            <li><a href="#support">Support Center</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+            <li><a href="#accessibility">Accessibility</a></li>
+          </ul>
+        </div>
+        <div class="footer__content">
+          <h3>Get in Touch</h3>
+          <p>Question or feedback? We'd love to hear from you.</p>
+          <form class="footer__content-input">
+            <input type="email" placeholder="Email Address" required />
+            <button class="footer__content-button">
+              <img src="assests/telegram-plane.svg" alt="Send Icon" />
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <p>
+          Copyright 2024. Proudly Developed By
+          <a href="#">
+            <span>ikram amini</span>
+          </a>
+        </p>
+        <div class="footer__copyright-terms">
+          <a href="#!">Terms and Condition</a>
+          <a href="#!">Privacy and Policy</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

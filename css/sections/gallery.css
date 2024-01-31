@@ -1,0 +1,66 @@
+.gallery {
+  margin-top: 6rem;
+}
+
+.gallery__title {
+  text-align: center;
+}
+
+.gallery__title p {
+  font-size: 1.1rem;
+  color: var(--text-granite-gray);
+}
+
+.gallery__title h2 {
+  font-size: 3rem;
+}
+
+.gallery__grid {
+  margin-top: 3rem;
+  padding: 1rem;
+
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  gap: 1.5rem;
+}
+
+.gallery__card {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  border-radius: 35px;
+  min-width: 200px;
+  min-height: 250px;
+}
+
+.gallery__card:nth-child(1) {
+  background-image: url(../../assests/gallery-1.jpg);
+}
+
+.gallery__card:nth-child(2) {
+  background-image: url(../../assests/gallery-2.jpg);
+}
+
+.gallery__card:nth-child(3) {
+  background-image: url(../../assests/gallery-3.jpg);
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.gallery__card:nth-child(4) {
+  background-image: url(../../assests/gallery-4.jpg);
+  grid-column: span 2;
+}
+
+.gallery__card:nth-child(5) {
+  background-image: url(../../assests/gallery-5.jpg);
+  grid-column: span 2;
+}
+
+.gallery__card:nth-child(6) {
+  background-image: url(../../assests/gallery-6.jpg);
+  grid-column: span 2;
+}
